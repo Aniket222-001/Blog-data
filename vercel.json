@@ -10,7 +10,7 @@
         }
     ],
   "functions": {
-    "/blog/data": {
+    "https://blog-data-nine.vercel.app/blog/data": {
       "maxDuration": 30
     }
   }
