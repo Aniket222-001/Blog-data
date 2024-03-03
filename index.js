@@ -50,11 +50,11 @@ app.post('/blogpost',async(req,res)=>{
 
 app.get('/blog/data',async(req,res)=>{
     try{
-        // const blogdata = await usermodel.find();
-        // return res.json({blogdata});
-         return res.json({
-            meassage: "what are you looking at"
-        })
+        const blogdata = await usermodel.find();
+        return res.json({blogdata});
+        //  return res.json({
+        //     meassage: "what are you looking at"
+        // })
     }
     catch(e){
         return res.json({
@@ -63,7 +63,7 @@ app.get('/blog/data',async(req,res)=>{
     }
 })
 app.get('/',(req,res)=>{
-    return res.json({
+    return res.status(404).json({
         meassage: "sever Domain is runnin nicely"
     })
 })
