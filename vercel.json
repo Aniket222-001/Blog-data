@@ -9,9 +9,5 @@
           "dest": "/"
         }
     ],
-    "functions": [
-    "/blog/data": {
-      "maxDuration": 30
-    }
-    ],
+   
   }
