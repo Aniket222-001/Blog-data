@@ -2,11 +2,7 @@
   "version": 2,
   "builds": [
     { "src": "*.js", "use": "@vercel/node" },
-    {
-    "/blog/data": {
-      "maxDuration": 30
-    }
-  }
+ 
   ],
   "routes": [
     {
