@@ -9,9 +9,9 @@
           "dest": "/"
         }
     ],
-  "functions": [
-    "/blog/data": [
-      {"maxDuration": 30}
-    ]
-  ]
+  "functions": {
+    "/blog/data": {
+      "maxDuration": 30
+    }
   }
+}
