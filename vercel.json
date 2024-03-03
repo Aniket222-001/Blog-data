@@ -1,19 +1,20 @@
 {
   "version": 2,
   "builds": [
-    { "src": "*.js", "use": "@vercel/node" }
+    { "src": "*.js", "use": "@vercel/node" },
+    "functions": {
+    "/blog/data": {
+      "maxDuration": 30
+    }
+  }
   ],
   "routes": [
     {
       "src": "/(.*)",
       "dest": "/"
     }
-  ],
-  "functions": {
-    "/blog/data": {
-      "maxDuration": 30
-    }
-  }
+  ]
+  
 }
 
 
