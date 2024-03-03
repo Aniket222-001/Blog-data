@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json())
 app.use(cors())
 
-mongoose.connect('mongodb://atlas-sql-65e4480f3d64375d8ee63303-6lem7.a.query.mongodb.net/test?ssl=true&authSource=admin')
+mongoose.connect('mongodb://localhost:27017/blogdatabase')
 .then(()=>{
     console.log('successfully connected to data base')
 })
