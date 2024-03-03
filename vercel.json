@@ -11,10 +11,4 @@
     ]
  
 }
-{
-  "functions": {
-    "/blog/data": {
-      "maxDuration": 60
-    }
-  }
-}
+
