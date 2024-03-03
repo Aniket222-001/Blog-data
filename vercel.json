@@ -9,9 +9,5 @@
           "dest": "/"
         }
     ],
-  "functions": {
-    "https://blog-data-nine.vercel.app/blog/data": {
-      "maxDuration": 30
-    }
-  }
+ 
 }
