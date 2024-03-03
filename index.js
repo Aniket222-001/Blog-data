@@ -51,8 +51,8 @@ app.post('/blogpost',async(req,res)=>{
 app.get('/blog/data',async(req,res)=>{
     try{
         const blogdata = await usermodel.find();
-        // return res.json({blogdata});
-         return res.send(blogdata);
+        return res.json({blogdata});
+        
         //  return res.json({
         //     meassage: "what are you looking at"
         // })
