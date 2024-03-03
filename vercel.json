@@ -10,7 +10,7 @@
         }
     ],
     "functions": {
-    "api/blog/data": {
+    "/blog/data": {
       "maxDuration": 30
     }
   }
