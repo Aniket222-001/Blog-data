@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json())
 app.use(cors())
 
-mongoose.connect('mongodb://localhost:27017/blogdatabase')
+mongoose.connect('mongodb+srv://aniketdtu17:Aniket12345@cluster0.pzyg7m3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
 .then(()=>{
     console.log('successfully connected to data base')
 })
