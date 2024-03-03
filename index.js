@@ -59,6 +59,11 @@ app.get('/blog/data',async(req,res)=>{
         })
     }
 })
+app.get('/',(req,res)=>{
+    return res.json({
+        meassage: "sever Domain is runnin nicely"
+    })
+})
 
 app.listen(4001,()=>{
     console.log('server is live')
