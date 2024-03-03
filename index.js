@@ -65,7 +65,7 @@ app.get('/blog/data',async(req,res)=>{
 })
 app.get('/',(req,res)=>{
     return res.status(404).json({
-        meassage: "sever Domain is runnin nicely"
+        meassage: "sever Domain is runnin nicely so what"
     })
 })
 
