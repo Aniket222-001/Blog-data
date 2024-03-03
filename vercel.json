@@ -8,5 +8,11 @@
           "src": "/(.*)",
           "dest": "/"
         }
-    ]
+    ],
+    ,
+  "functions": {
+    "api/blog/data": {
+      "maxDuration": 30
+    }
+  }
   }
