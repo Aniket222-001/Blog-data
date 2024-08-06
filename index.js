@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json())
 app.use(cors())
 
-mongoose.connect("mongodb+srv://bloguser:bloguser@cluster0.pzyg7m3.mongodb.net/Blogdata")
+mongoose.connect("")
 .then(()=>{
     console.log('successfully connected to data base')
 })
